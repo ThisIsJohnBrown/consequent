@@ -199,7 +199,7 @@ SoundApp = function(sketch) {
       }
       _this.lastBeat = _this.gibber.Clock.currentBeat;
       if (sketch.isMobile()) {
-        return;
+        //return;
       }
       sketch.noStroke();
       sketch.fill(0, 0, 0, _this.fillValue);
@@ -385,7 +385,7 @@ SoundApp = function(sketch) {
     return function() {
       if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
         console.log('is mobile');
-        return true;
+        //return true;
       }
       return false;
     };
