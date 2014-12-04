@@ -382,7 +382,7 @@ Consequent = function(sketch) {
       if (!_this.visualizer) {
         return 0;
       }
-      return Math.min(600, window.innerHeight);
+      return Math.min(4600, window.innerHeight);
     };
   })(this);
   sketch.keyPressed = (function(_this) {
