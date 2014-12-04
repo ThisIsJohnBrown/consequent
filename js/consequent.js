@@ -382,7 +382,6 @@ Consequent = function(sketch) {
       if (!_this.visualizer) {
         return 0;
       }
-      return window.innerHeight;
       return Math.min(600, window.innerHeight);
     };
   })(this);
